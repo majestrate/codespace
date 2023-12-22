@@ -14,6 +14,8 @@ done
 
 cp tool-versions ~/.tool-versions
 
-# install all plugins
-
+# install plugins
 asdf install
+
+# copy configs
+cp tmux.conf ~/.tmux.conf
